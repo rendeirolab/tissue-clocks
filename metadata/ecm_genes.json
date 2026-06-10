@@ -1,0 +1,32 @@
+{
+  "Structural collagens": [
+    "COL1A1", "COL1A2", "COL2A1", "COL3A1", "COL4A1", "COL4A2", "COL5A1", "COL5A2",
+    "COL6A1", "COL6A2", "COL6A3", "COL7A1", "COL8A1", "COL11A1", "COL12A1", "COL14A1"
+  ],
+  "Elastic fiber components": [
+    "ELN", "FBN1", "FBN2", "EFEMP1", "MFAP2", "MFAP4", "EMILIN1", "LTBP1", "LTBP2", "LTBP4"
+  ],
+  "Basement membrane proteins": [
+    "LAMC1", "LAMB1", "LAMA1", "LAMA2", "NID1", "NID2", "HSPG2", "AGRN", "COL4A5"
+  ],
+  "Proteoglycans and glycoproteins": [
+    "DCN", "BGN", "LUM", "FMOD", "PRELP", "VCAN", "HAPLN1", "HSPG2", "TNC", "FN1", "THBS1", "THBS2", "SPARC", "COMP", "OMD"
+  ],
+  "ECM remodeling enzymes": [
+    "MMP1", "MMP2", "MMP3", "MMP9", "MMP12", "MMP14", "ADAMTS1", "ADAMTS2",
+    "ADAMTS4", "ADAMTS5", "ADAMTS9", "LOX", "LOXL1", "LOXL2", "CTSK", "CTSL"
+  ],
+  "ECM receptor and adhesion molecules": [
+    "ITGA1", "ITGA2", "ITGA5", "ITGAV", "ITGB1", "ITGB3", "CD44", "SDC1", "SDC2", "DAG1", "VWF"
+  ],
+  "Signaling and regulators of ECM homeostasis": [
+    "TGFB1", "TGFB2", "TGFB3", "TGFBR1", "TGFBR2", "SMAD2", "SMAD3",
+    "CTGF", "SERPINE1", "PDGFRB", "PDGFA", "PDGFB", "VEGFA", "FGF2"
+  ],
+  "Matrix crosslinking and stiffness regulators": [
+    "LOX", "LOXL1", "LOXL2", "PLOD1", "PLOD2", "PLOD3", "TGM2"
+  ],
+  "Senescence- and inflammation-linked ECM factors": [
+    "MMP9", "MMP12", "IL6", "CXCL12", "SERPINE1", "TGFB1", "SPP1", "THBS1"
+  ]
+}
