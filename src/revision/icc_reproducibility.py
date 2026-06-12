@@ -4,6 +4,9 @@ ICC reproducibility analysis for tissue clocks.
 Randomly sample 50% of tiles per slide, aggregate, and predict age.
 Repeat 5 times per slide to assess within-slide reproducibility.
 
+NOTE: This script uses hardcoded machine-specific paths and is included
+for transparency. It is not expected to run outside the original machine.
+
 Usage:
     uv run python src/revision/icc_reproducibility.py --model virchow2 --organ Lung
     uv run python src/revision/icc_reproducibility.py --model virchow2 --organ all

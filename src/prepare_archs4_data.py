@@ -351,6 +351,11 @@ def prepare_archs4_data():
 
 
 def categorize_strings(terms: list[str], model: str = "gpt-4") -> dict[str, str]:
+    """Optional helper: categorize disease strings via OpenAI API.
+
+    Requires a local API key file at ~/.openai.auth.json. This step is
+    optional and not required for the main ARCHS4 validation pipeline.
+    """
     import json
     from openai import OpenAI
 

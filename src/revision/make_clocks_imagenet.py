@@ -1,7 +1,9 @@
 """
-
 Make tissue clocks from imagenet model features.
 
+NOTE: This script references hardcoded machine-specific paths for
+ImageNet feature directories. It is included for transparency and is
+not expected to run outside the original machine.
 """
 
 from pathlib import Path

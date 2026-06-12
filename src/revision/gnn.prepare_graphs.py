@@ -1,5 +1,9 @@
 """
 
+NOTE: The Slurm submission blocks below reference machine-specific paths
+and are included for transparency only. They are not expected to run
+outside the original machine.
+
 # Launch:
 cd /nobackup/lab_rendeiro/projects/histopath
 mkdir -p logs/prepare_graphs

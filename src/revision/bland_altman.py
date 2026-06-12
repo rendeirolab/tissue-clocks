@@ -19,9 +19,12 @@ For each external cohort, compute:
 - Bias (mean difference) with 95% CI
 - Limits of agreement: bias ± 1.96 * SD
 
+NOTE: This script was developed on a remote machine. Results paths may
+need to be adapted for local use.
+
 Usage:
-    PYTHONPATH=/data/projects/agingpath uv run python src/revision/bland_altman.py --cohort lungaging-schiller --model virchow2 --organ Lung
-    PYTHONPATH=/data/projects/agingpath uv run python src/revision/bland_altman.py --cohort all --model virchow2 --organ all
+    uv run python src/revision/bland_altman.py --cohort lungaging-schiller --model virchow2 --organ Lung
+    uv run python src/revision/bland_altman.py --cohort all --model virchow2 --organ all
 """
 
 import argparse

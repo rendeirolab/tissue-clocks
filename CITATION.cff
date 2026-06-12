@@ -1,0 +1,136 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Histological aging signatures enable inference of tissue-specific disease associations from blood"
+version: 1.0.0
+date-released: 2026-06-12
+license: PolyForm-Noncommercial-1.0.0
+repository-code: "https://github.com/rendeirolab/tissue-clocks"
+doi: 10.1101/2024.11.14.618081
+authors:
+  - family-names: Abila
+    given-names: Ernesto
+  - family-names: Buljan
+    given-names: Iva
+  - family-names: Zheng
+    given-names: Yimin
+  - family-names: Kleissl
+    given-names: Lisa
+  - family-names: Klotz
+    given-names: Sigrid
+  - family-names: Veres
+    given-names: Tamas
+  - family-names: Weng
+    given-names: Zhilong
+  - family-names: Nackenhorst
+    given-names: Maja
+  - family-names: Kamies
+    given-names: Rizqah
+  - family-names: Michl
+    given-names: Anja
+  - family-names: Kadri
+    given-names: Safwen
+  - family-names: Moustafa
+    given-names: Samir
+  - family-names: Hulla
+    given-names: Wolfgang
+  - family-names: Perkonigg
+    given-names: Matthias
+  - family-names: Drach
+    given-names: Mathias
+  - family-names: Tschandl
+    given-names: Philipp
+  - family-names: Sterniczky
+    given-names: Barbara
+  - family-names: Heinig
+    given-names: Matthias
+  - family-names: Desadeleer
+    given-names: Laurens
+  - family-names: Wuyts
+    given-names: Wim
+  - family-names: Vanaudenaerde
+    given-names: Bart
+  - family-names: Ceulemans
+    given-names: Laurens J.
+  - family-names: Buchanan
+    given-names: Daniel D.
+  - family-names: Fennell
+    given-names: Lochlan
+  - family-names: Stary
+    given-names: Georg
+  - family-names: Tolkach
+    given-names: Yuri
+  - family-names: Wöhrer
+    given-names: Adelheid
+  - family-names: Schiller
+    given-names: Herbert B.
+  - family-names: Rendeiro
+    given-names: André F.
+contact:
+  - name: André F. Rendeiro
+    email: arendeiro@cemm.oeaw.ac.at
+    affiliation: "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences"
+preferred-citation:
+  type: article
+  title: "Histological aging signatures enable inference of tissue-specific disease associations from blood"
+  authors:
+    - family-names: Abila
+      given-names: Ernesto
+    - family-names: Buljan
+      given-names: Iva
+    - family-names: Zheng
+      given-names: Yimin
+    - family-names: Kleissl
+      given-names: Lisa
+    - family-names: Klotz
+      given-names: Sigrid
+    - family-names: Veres
+      given-names: Tamas
+    - family-names: Weng
+      given-names: Zhilong
+    - family-names: Nackenhorst
+      given-names: Maja
+    - family-names: Kamies
+      given-names: Rizqah
+    - family-names: Michl
+      given-names: Anja
+    - family-names: Kadri
+      given-names: Safwen
+    - family-names: Moustafa
+      given-names: Samir
+    - family-names: Hulla
+      given-names: Wolfgang
+    - family-names: Perkonigg
+      given-names: Matthias
+    - family-names: Drach
+      given-names: Mathias
+    - family-names: Tschandl
+      given-names: Philipp
+    - family-names: Sterniczky
+      given-names: Barbara
+    - family-names: Heinig
+      given-names: Matthias
+    - family-names: Desadeleer
+      given-names: Laurens
+    - family-names: Wuyts
+      given-names: Wim
+    - family-names: Vanaudenaerde
+      given-names: Bart
+    - family-names: Ceulemans
+      given-names: Laurens J.
+    - family-names: Buchanan
+      given-names: Daniel D.
+    - family-names: Fennell
+      given-names: Lochlan
+    - family-names: Stary
+      given-names: Georg
+    - family-names: Tolkach
+      given-names: Yuri
+    - family-names: Wöhrer
+      given-names: Adelheid
+    - family-names: Schiller
+      given-names: Herbert B.
+    - family-names: Rendeiro
+      given-names: André F.
+  doi: 10.1101/2024.11.14.618081
+  journal: bioRxiv
+  year: 2026

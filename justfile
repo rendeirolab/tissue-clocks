@@ -1,4 +1,4 @@
-# Justfile for the AgingPath project
+# Justfile for the tissue-clocks project
 # Histopathology of human aging to predict biological age and pathology
 
 set shell := ["bash", "-cu"]
@@ -25,7 +25,7 @@ _backup_time:
 _sync:
     rsync --copy-links --progress -r . arendeiro@login:projects/{{name}}
 
-# [dev] Sync data/code to HPC cluster
+# [dev] Sync data/code to remote machine
 sync: _sync _backup_time
 
 # [dev] Start an interactive IPython session
@@ -112,7 +112,7 @@ revision_foundation:
     uv run python src/revision/process_lz_aggregate.py
     uv run python src/revision/new_cohorts_clocks.py
     uv run python src/revision/cross_apply_clocks.py
-    uv run python src/revision/compare_histology_dname.py
+    uv run python src/revision/correlate_histology_dname.py
 
 # Outcome interpretation (revision)
 revision_outcomes:

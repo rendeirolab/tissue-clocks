@@ -6,6 +6,7 @@
 **Histological aging signatures enable tissue-specific disease prediction from blood.**
 
 We develop histological aging clocks from H&E-stained tissue sections to predict biological age across multiple human tissues. These clocks capture tissue-specific aging signatures that associate with pathological outcomes, telomere length, and morbidity — providing a morphological window into the aging process. Transferring these clocks to blood gene expression profiles enables non-invasive prediction of tissue-specific aging and disease risk, highlighting the potential of histological features as biomarkers for aging and pathology.
+Licensed under [PolyForm Noncommercial 1.0.0](LICENSE). Fine-tuning data: [Zenodo 10.5281/zenodo.13330659](https://doi.org/10.5281/zenodo.13330659).
 
 ---
 
@@ -133,7 +134,7 @@ Below is an overview of all code used in the project.
     - [`process_lz_aggregate.py`](src/revision/process_lz_aggregate.py)
     - [`new_cohorts_clocks.py`](src/revision/new_cohorts_clocks.py)
     - [`cross_apply_clocks.py`](src/revision/cross_apply_clocks.py)
-    - [`compare_histology_dname.py`](src/revision/compare_histology_dname.py)
+    - [`correlate_histology_dname.py`](src/revision/correlate_histology_dname.py)
     - *Outcomes:*
         - [`interpret_age_gaps_telomeres.tissue.imagenet.py`](src/revision/interpret_age_gaps_telomeres.tissue.imagenet.py)
         - [`interpret_age_gaps_morbidity.tissue.imagenet.py`](src/revision/interpret_age_gaps_morbidity.tissue.imagenet.py)
@@ -173,6 +174,10 @@ If you use this work, please cite our preprint:
 > **Histological aging signatures enable tissue-specific disease prediction from blood**
 > Ernesto Abila, Iva Buljan, Yimin Zheng, Tamas Veres, Zhilong Weng, Maja Nackenhorst, Wolfgang Hulla, Yuri Tolkach, Adelheid Wöhrer, André F. Rendeiro
 > bioRxiv 2024.11.14.618081. DOI: [10.1101/2024.11.14.618081](https://doi.org/10.1101/2024.11.14.618081)
+> **TODO:** After Zenodo archives the GitHub release, set the top-level `doi` in [`CITATION.cff`](CITATION.cff) to the Zenodo code DOI (currently the bioRxiv DOI).
+> **TODO:** Once the Nature Medicine DOI is available, update this block and the BibTeX entry below, and update `preferred-citation` in [`CITATION.cff`](CITATION.cff).
+
+Full author list and metadata: [`CITATION.cff`](CITATION.cff).
 
 ```bibtex
 @article {Abila2024.11.14.618081,

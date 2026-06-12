@@ -15,10 +15,14 @@
 # ///
 
 """
-ICC analysis script v2 - computes ICC across sampling fractions.
+ICC analysis script - computes ICC across sampling fractions.
+
+NOTE: This script was run on a remote machine and references machine-specific
+paths. It is included for transparency and is not expected to run outside
+the original machine.
 
 Usage:
-    PYTHONPATH=/data/projects/agingpath uv run python src/revision/icc_apply_clocks_v2.py --model virchow2 --organ Lung
+    uv run python src/revision/icc_apply_clocks.py --model virchow2 --organ Lung
 """
 
 import argparse

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ICC tile sampling script v2 - optimized for IO with parallel processing.
+ICC tile sampling script - optimized for IO with parallel processing.
 
 For each GTEx zarr file:
 1. Load once
@@ -9,9 +9,12 @@ For each GTEx zarr file:
 
 Output: one h5ad per fraction (containing all seeds for all samples)
 
+NOTE: This script was run on a remote machine. It is included for
+transparency and is not expected to run outside the original machine.
+
 Usage:
     cd /data/projects/histopath
-    python src/revision/icc_sample_tiles_v2.py --model virchow2 --organ Lung
+    python src/revision/icc_sample_tiles.py --model virchow2 --organ Lung
 """
 
 import argparse

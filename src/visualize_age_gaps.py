@@ -1,3 +1,11 @@
+"""
+Visualize histological age gaps on whole-slide images.
+
+NOTE: The get_slides() helper uses hardcoded scp commands to a remote
+machine. It is included for transparency and is not expected to run
+outside the original machine.
+"""
+
 import typing as tp
 from pathlib import Path
 import os

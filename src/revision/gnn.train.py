@@ -1,5 +1,9 @@
 """
 GNN-based prediction of biological age from WSI graphs.
+
+NOTE: This script contains hardcoded machine-specific paths for remote
+data retrieval via scp. It is included for transparency and is not
+expected to run outside the original machine.
 """
 
 from pathlib import Path
