@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 Rendeiro Lab, CeMM - Research Center for Molecular Medicine, Austrian Academy of Sciences
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+#
+# Licensed under the PolyForm Noncommercial License 1.0.0 (see LICENSE).
+
 # This cell programmatically creates a didactic Jupyter notebook that walks through building
 # a tissue-clock from WSI features (e.g., Virchow2). It is parameterized and robust to missing data.
 # The notebook will be saved as tissue_clock_walkthrough.ipynb.

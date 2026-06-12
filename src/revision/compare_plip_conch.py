@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+
+# SPDX-FileCopyrightText: Copyright (c) 2026 Rendeiro Lab, CeMM - Research Center for Molecular Medicine, Austrian Academy of Sciences
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+#
+# Licensed under the PolyForm Noncommercial License 1.0.0 (see LICENSE).
+
 """
 Compare PLIP and CONCH text-based inference results.
 """
