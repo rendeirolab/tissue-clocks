@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "Histological aging signatures enable inference of tissue-specific disease associations from blood"
+title: "Histological aging signatures for monitoring tissue-specific aging and disease"
 version: 1.0.0
 date-released: 2026-06-12
 license: PolyForm-Noncommercial-1.0.0
@@ -71,7 +71,7 @@ contact:
     affiliation: "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences"
 preferred-citation:
   type: article
-  title: "Histological aging signatures enable inference of tissue-specific disease associations from blood"
+  title: "Histological aging signatures for monitoring tissue-specific aging and disease"
   authors:
     - family-names: Abila
       given-names: Ernesto

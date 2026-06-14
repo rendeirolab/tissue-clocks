@@ -3,7 +3,7 @@
 [![Biorxiv Badge](https://img.shields.io/static/v1?label=bioRxiv&message=10.1101/2024.11.14.618081&color=red&logo=biorxiv)](https://doi.org/10.1101/2024.11.14.618081) ⬅️ read the preprint here <br>
 [![Lab Badge](https://img.shields.io/static/v1?label=Lab&message=rendeiro.group&color=blue&logo=github)](http://rendeiro.group)
 
-**Histological aging signatures enable tissue-specific disease prediction from blood.**
+**Histological aging signatures for monitoring tissue-specific aging and disease.**
 
 We develop histological aging clocks from H&E-stained tissue sections to predict biological age across multiple human tissues. These clocks capture tissue-specific aging signatures that associate with pathological outcomes, telomere length, and morbidity — providing a morphological window into the aging process. Transferring these clocks to blood gene expression profiles enables non-invasive prediction of tissue-specific aging and disease risk, highlighting the potential of histological features as biomarkers for aging and pathology.
 Licensed under [PolyForm Noncommercial 1.0.0](LICENSE). Fine-tuning data: [Zenodo 10.5281/zenodo.13330659](https://doi.org/10.5281/zenodo.13330659).
@@ -171,7 +171,7 @@ Below is an overview of all code used in the project.
 
 If you use this work, please cite our preprint:
 
-> **Histological aging signatures enable tissue-specific disease prediction from blood**
+> **Histological aging signatures for monitoring tissue-specific aging and disease**
 > Ernesto Abila, Iva Buljan, Yimin Zheng, Tamas Veres, Zhilong Weng, Maja Nackenhorst, Wolfgang Hulla, Yuri Tolkach, Adelheid Wöhrer, André F. Rendeiro
 > bioRxiv 2024.11.14.618081. DOI: [10.1101/2024.11.14.618081](https://doi.org/10.1101/2024.11.14.618081)
 > **TODO:** After Zenodo archives the GitHub release, set the top-level `doi` in [`CITATION.cff`](CITATION.cff) to the Zenodo code DOI (currently the bioRxiv DOI).
@@ -182,7 +182,7 @@ Full author list and metadata: [`CITATION.cff`](CITATION.cff).
 ```bibtex
 @article {Abila2024.11.14.618081,
 	author = {Abila, Ernesto and Buljan, Iva and Zheng, Yimin and Veres, Tamas and Weng, Zhilong and Nackenhorst, Maja and Hulla, Wolfgang and Tolkach, Yuri and W{\"o}hrer, Adelheid and Rendeiro, Andr{\'e} F.},
-	title = {Histological aging signatures enable tissue-specific disease prediction from blood},
+	title = {Histological aging signatures for monitoring tissue-specific aging and disease},
 	elocation-id = {2024.11.14.618081},
 	year = {2026},
 	doi = {10.1101/2024.11.14.618081},

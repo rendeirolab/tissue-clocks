@@ -1,7 +1,7 @@
 [project]
 name = "tissue-clocks"
 version = "0.1.0"
-description = "Histopathology of human aging to predict biological age and disease"
+description = "Histological aging signatures for monitoring tissue-specific aging and disease"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
