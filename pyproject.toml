@@ -1,8 +1,9 @@
 [project]
 name = "tissue-clocks"
-version = "0.1.0"
+version = "1.0.0"
 description = "Histological aging signatures for monitoring tissue-specific aging and disease"
 readme = "README.md"
+license = "PolyForm-Noncommercial-1.0.0"
 requires-python = ">=3.12"
 dependencies = [
     "anndata>=0.11.3",

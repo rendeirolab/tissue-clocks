@@ -155,15 +155,12 @@ analysis_full: analysis revision
 
 # === Data management ===
 
-# [dev] Upload processed files to Zenodo
+# Fine-tuning datasets are hosted on Zenodo (separate from this repository)
 upload_data:
-    @echo "Warning: this step is not meant to be run, but simply details how datasets were uploaded."
-    uv run python src/upload_to_zenodo.py
+    @echo "Fine-tuning datasets: https://doi.org/10.5281/zenodo.13330659"
 
-# Download processed data from Zenodo (for reproducibility)
 download_data:
-    @echo "Not yet implemented!"
-    uv run python src/download_from_zenodo.py
+    @echo "See README for GTEx/dbGaP data access."
 
 # === Figures ===
 

@@ -4,6 +4,8 @@ Source code release accompanying the Nature Medicine manuscript:
 
 **Histological aging signatures for monitoring tissue-specific aging and disease**
 
+Code DOI: [10.5281/zenodo.20671352](https://doi.org/10.5281/zenodo.20671352)
+
 ## Contents
 
 - Full analysis pipeline for GTEx histopathology aging clocks
