@@ -1,7 +1,7 @@
 # Tissue-clocks
 
 [![Biorxiv Badge](https://img.shields.io/static/v1?label=bioRxiv&message=10.1101/2024.11.14.618081&color=red&logo=biorxiv)](https://doi.org/10.1101/2024.11.14.618081) ⬅️ read the preprint here <br>
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20671352.svg)](https://doi.org/10.5281/zenodo.20671352) ⬅️ cite the code <br>
+[![Zenodo](https://img.shields.io/static/v1?label=Zenodo&message=10.5281/zenodo.20671352&color=blue&logo=zenodo)](https://doi.org/10.5281/zenodo.20671352) ⬅️ cite the code <br>
 [![Lab Badge](https://img.shields.io/static/v1?label=Lab&message=rendeiro.group&color=blue&logo=github)](http://rendeiro.group)
 
 **Histological aging signatures for monitoring tissue-specific aging and disease.**
@@ -167,6 +167,18 @@ Below is an overview of all code used in the project.
 
 ### 📋 Supporting material
 - [`supplementary_tables.py`](src/supplementary_tables.py)
+
+---
+
+## 📄 License
+
+This repository is released under the [PolyForm Noncommercial License 1.0.0](LICENSE). In plain terms:
+
+- You may use, modify, and share this software for **noncommercial** purposes, including academic and nonprofit research.
+- **Commercial use is not permitted** under this license. That includes use by for-profit organizations and use for commercial research, even if the work is described as research-only.
+- If you need to use this software commercially, a **separate license** can be arranged through CeMM's intellectual property office: [ip@cemm.at](mailto:ip@cemm.at).
+
+The full legal terms are in [`LICENSE`](LICENSE).
 
 ---
 
